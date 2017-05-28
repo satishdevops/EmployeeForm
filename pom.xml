@@ -4,10 +4,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.websystique.springmvc</groupId>
-	<artifactId>SpringHibernateExample</artifactId>
+	<artifactId>EmployeeForm</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>SpringHibernateExample</name>
+	<name>EmployeeForm</name>
 
 	<properties>
 		<springframework.version>4.0.6.RELEASE</springframework.version>
@@ -149,13 +149,13 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>SpringHibernateExample</warName>
+						<warName>EmployeeForm</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<finalName>SpringHibernateExample</finalName>
+		<finalName>EmployeeForm</finalName>
 	</build>
 </project>
 
